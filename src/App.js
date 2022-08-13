@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
+import User from './User-class';
 
 
 function App(){
   return(
     <div>
-      <Counter num={0}/>
+      {/* <Counter num={0}/> */}
+      <User/>
     </div>
   )
 }
