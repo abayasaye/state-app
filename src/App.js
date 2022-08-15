@@ -1,18 +1,35 @@
 // import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
+import EditingUser from './EditingUser';
+import Home from './Home';
 import User from './User-class';
 
 
 function App(){
   return(
     <div>
-      {/* <Counter num={0}/> */}
+      <Counter num={0}/>
+      
       <User/>
+      <Home/>
+      <EditingUser/>
     </div>
   )
 }
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function App() {
 //   return (
