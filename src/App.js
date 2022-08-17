@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
-import EditingUser from './EditingUser';
 import Home from './Home';
 import User from './User-class';
 
@@ -13,7 +12,6 @@ function App(){
       
       <User/>
       <Home/>
-      <EditingUser/>
     </div>
   )
 }
