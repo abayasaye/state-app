@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
+import Family from './Family';
 import Home from './Home';
 import User from './User-class';
 
@@ -8,10 +9,12 @@ import User from './User-class';
 function App(){
   return(
     <div>
-      <Counter num={0}/>
+      {/* <Counter num={0}/>
       
       <User/>
-      <Home/>
+      <Home/> */}
+      <Family/>
+
     </div>
   )
 }
